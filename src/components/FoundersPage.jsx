@@ -1,5 +1,5 @@
 import React from "react";
-import { ChevronRight, Award, ChevronDown } from "lucide-react";
+import { ChevronRight, Award, } from "lucide-react";
 import FounderProfile from "../components/FounderProfile";
 import VideoFeature from "../components/VideoFeature";
 import { motion } from "framer-motion";
@@ -43,9 +43,9 @@ const FoundersPage = () => {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
-      className="py-16 bg-gray-50"
+      className="pt-10 bg-gray-50"
     >
-      {/* Introduction Section */}
+      
       <section className="container mx-auto px-4 md:px-6 mb-16 text-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
           Meet Our Visionary Founders
@@ -56,7 +56,7 @@ const FoundersPage = () => {
         </p>
       </section>
 
-      {/* Founders Profile Section */}
+      
       <section className="container mx-auto px-4 md:px-6 mb-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {founderData.map((founder) => (
@@ -73,10 +73,10 @@ const FoundersPage = () => {
         </div>
       </section>
 
-      {/* Video and Journey Sections */}
+      
       <section className="container mx-auto px-4 md:px-6 mb-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {/* Shark Tank Journey Section */}
+          
           <div className="rounded-2xl shadow-xl overflow-hidden relative p-[2px] group mb-8 lg:mb-0">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div className="relative bg-white rounded-2xl p-8 h-full">
@@ -94,7 +94,7 @@ const FoundersPage = () => {
             </div>
           </div>
 
-          {/* Our Journey Section */}
+          
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden relative p-[2px] group">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div className="relative bg-white rounded-2xl p-8 h-full">
