@@ -61,7 +61,7 @@ const FoundersPage = () => {
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.8 }}
     className="py-16 bg-gray-50">
-      {/* Hero Section */}
+    
       <section className="container mx-auto px-4 md:px-6 mb-16 text-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
           Meet Our Visionary Founders
@@ -72,9 +72,9 @@ const FoundersPage = () => {
         </p>
       </section>
 
-      {/* Founders Section */}
+     
       <section className="container mx-auto px-4 md:px-6 mb-20">
-        <div className="lg:grid grid-cols-1 md:grid-cols-2 gap-10">
+        <div className="grid  grid-cols-1 lg:grid-cols-2 gap-8">
           {founderData.map((founder) => (
             <div
               key={founder.id}
@@ -92,10 +92,10 @@ const FoundersPage = () => {
         </div>
       </section>
 
-      {/* Shark Tank Feature */}
+     
       <section className="container mx-auto px-4 md:px-6 mb-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {/* Shark Tank Feature - Left Side */}
+         
           <div className="rounded-2xl shadow-xl overflow-hidden relative p-[2px] group mb-8 lg:mb-0">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div className="relative bg-white rounded-2xl p-8 h-full">
@@ -113,7 +113,7 @@ const FoundersPage = () => {
             </div>
           </div>
 
-          {/* Company Story - Right Side */}
+          
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden relative p-[2px] group">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div className="relative bg-white rounded-2xl p-8 h-full">

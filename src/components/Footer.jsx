@@ -1,4 +1,4 @@
-// components/Footer.jsx
+
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-black text-white py-12">
       <div className="container mx-auto px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Brand Information */}
+        
           <div className="flex flex-col space-y-4">
             <img 
               src="https://i0.wp.com/wehear.in/wp-content/uploads/2024/04/cropped-cropped-WEHEAR-INO-WHITE-.png?w=512&ssl=1" 
@@ -21,7 +21,7 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Useful Links */}
+          
           <div>
             <h3 className="text-sm font-bold uppercase tracking-wider mb-4">USEFUL LINK</h3>
             <ul className="text-sm space-y-2">
@@ -53,7 +53,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Important Links */}
+          
           <div>
             <h3 className="text-sm font-bold uppercase tracking-wider mb-4">IMPORTANT LINK</h3>
             <ul className="text-sm space-y-2">

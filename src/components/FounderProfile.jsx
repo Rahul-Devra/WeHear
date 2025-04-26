@@ -3,7 +3,7 @@ import { ExternalLink } from 'lucide-react';
 
 const FounderProfile = ({ founder }) => {
   return (
-    <div className="bg-white rounded-2xl shadow-xl overflow-hidden transition-all duration-300 mt-5 lg:mt-0">
+    <div className="bg-white rounded-2xl shadow-xl overflow-hidden transition-all duration-300">
       <div className="md:flex h-full">
         <div className="md:w-2/5">
           <div className="h-80 relative overflow-hidden">

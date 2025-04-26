@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <nav className="flex justify-around items-center px-8 py-4 bg-black text-white">
-      {/* Logo */}
+     
       <div className="logo">
         <a href="https://wehear.in/" target="_blank" rel="noopener noreferrer">
           <img 
@@ -20,7 +20,7 @@ const Navbar = () => {
         </a>
       </div>
 
-      {/* Navigation Links */}
+     
       <ul className="flex items-center text-lg font-semibold">
         <li>
           <a 
