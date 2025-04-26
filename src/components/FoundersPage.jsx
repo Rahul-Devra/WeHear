@@ -1,4 +1,3 @@
-import React from "react";
 import { ChevronRight, Award, } from "lucide-react";
 import FounderProfile from "../components/FounderProfile";
 import VideoFeature from "../components/VideoFeature";
