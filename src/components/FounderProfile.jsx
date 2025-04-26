@@ -17,11 +17,7 @@ const FounderProfile = ({ founder }) => {
         <div className="p-6 md:p-8 md:w-3/5">
           <div className="flex items-center mb-2">
             <h3 className="text-2xl font-bold text-gray-900">{founder.name}</h3>
-            {founder.verified && (
-              <span className="ml-2 bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">
-                Verified
-              </span>
-            )}
+            
           </div>
           <p className="text-blue-600 font-medium mb-4">{founder.title}</p>
           <p className="text-gray-700 mb-6">{founder.fullBio}</p>

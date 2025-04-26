@@ -10,7 +10,7 @@ const founderData = [
     name: "Kanishka Patel",
     role: "Co-Founder & CEO",
     image: "/Kanishka-Sir.webp",
-    verified: true,
+   
     fullBio: [
       "Kanishka Patel is the Founder and CEO of WeHear, a startup pioneering smart audio technologies and hearing solutions based on bone conduction.",
       "He is also known for developing 'HearNU', the world's first patented non-surgical bone-conduction hearing aid.",
@@ -25,7 +25,7 @@ const founderData = [
     name: "Raj Shah",
     role: "Co-Founder",
     image: "/Raj-Sir.webp",
-    verified: true,
+    
     fullBio: [
       "Raj Shah is the Founder of COSMO Group and Co-Founder of WeHear, working on innovative solutions for global problems.",
       "He pioneered alternative medicine applications and focuses on scaling impactful technologies, including WeHear's revolutionary hearing devices.",
