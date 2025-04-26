@@ -1,6 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Navbar = () => {
+  const [activeLink, setActiveLink] = useState("founders");
+
+  const handleLinkClick = (linkName) => {
+    setActiveLink(linkName);
+  };
+
   return (
     <nav className="flex justify-around items-center px-8 py-4 bg-black text-white">
       {/* Logo */}
@@ -17,22 +23,44 @@ const Navbar = () => {
       {/* Navigation Links */}
       <ul className="flex items-center text-lg font-semibold">
         <li>
-          <a href="/impact" className="hover:text-gray-300 px-3">IMPACT</a>
+          <a 
+            href="/" 
+            onClick={() => handleLinkClick("impact")} 
+            className={`px-3 ${activeLink === "impact" ? "text-red-500 border-b-2 border-red-500" : "hover:text-gray-300"}`}
+          >
+            IMPACT
+          </a>
         </li>
         <div className="w-px h-4 bg-white" />
         
         <li>
-          <a href="/investor" className="hover:text-gray-300 px-3">INVESTOR</a>
+          <a 
+            href="/" 
+            onClick={() => handleLinkClick("investor")} 
+            className={`px-3 ${activeLink === "investor" ? "text-red-500 border-b-2 border-red-500" : "hover:text-gray-300"}`}
+          >
+            INVESTOR
+          </a>
         </li>
         <div className="w-px h-4 bg-white" />
         
         <li>
-          <a href="/careers" className="hover:text-gray-300 px-3">CAREERS</a>
+          <a 
+            href="/" 
+            onClick={() => handleLinkClick("careers")} 
+            className={`px-3 ${activeLink === "careers" ? "text-red-500 border-b-2 border-red-500" : "hover:text-gray-300"}`}
+          >
+            CAREERS
+          </a>
         </li>
         <div className="w-px h-4 bg-white" />
         
         <li>
-          <a href="/Our-Founders" className="text-red-500 border-b-2 border-red-500 pb-1 px-3">
+          <a 
+            href="/" 
+            onClick={() => handleLinkClick("founders")} 
+            className={`px-3 ${activeLink === "founders" ? "text-red-500 border-b-2 border-red-500" : "hover:text-gray-300"}`}
+          >
             FOUNDER’S
           </a>
         </li>
