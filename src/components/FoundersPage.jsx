@@ -52,13 +52,9 @@ const founderData = [
 ];
 
 const FoundersPage = () => {
-  const [expandedFounder, setExpandedFounder] = useState(null);
-  const [showFullStory, setShowFullStory] = useState(false);
+  
 
-  const toggleExpand = (id) => {
-    setExpandedFounder(expandedFounder === id ? null : id);
-  };
-
+  
   return (
     < motion.div
     initial={{ opacity: 0, y: 20 }}
@@ -88,8 +84,7 @@ const FoundersPage = () => {
               <div className="relative bg-white ring-1 ring-gray-900/5 rounded-lg">
                 <FounderProfile
                   founder={founder}
-                  isExpanded={expandedFounder === founder.id}
-                  toggleExpand={() => toggleExpand(founder.id)}
+                 
                 />
               </div>
             </div>

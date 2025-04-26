@@ -31,22 +31,22 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/impact" className="hover:text-gray-300">
+                <Link to="/" className="hover:text-gray-300">
                   Impact
                 </Link>
               </li>
               <li>
-                <Link to="/investor" className="hover:text-gray-300">
+                <Link to="/" className="hover:text-gray-300">
                   Investor
                 </Link>
               </li>
               <li>
-                <Link to="/careers" className="hover:text-gray-300">
+                <Link to="/" className="hover:text-gray-300">
                   Careers
                 </Link>
               </li>
               <li>
-                <Link to="/privacy-policy" className="hover:text-gray-300">
+                <Link to="/" className="hover:text-gray-300">
                   Privacy Policy
                 </Link>
               </li>
@@ -58,17 +58,17 @@ const Footer = () => {
             <h3 className="text-sm font-bold uppercase tracking-wider mb-4">IMPORTANT LINK</h3>
             <ul className="text-sm space-y-2">
               <li>
-                <Link to="/wehear" className="hover:text-gray-300">
+                <Link to="/" className="hover:text-gray-300">
                   WeHear
                 </Link>
               </li>
               <li>
-                <Link to="/hearnu" className="hover:text-gray-300">
+                <Link to="/" className="hover:text-gray-300">
                   HearNU
                 </Link>
               </li>
               <li>
-                <Link to="/blog" className="hover:text-gray-300">
+                <Link to="/" className="hover:text-gray-300">
                   Blog
                 </Link>
               </li>
